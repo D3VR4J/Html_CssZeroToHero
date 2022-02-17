@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Day3 Assignment</title>
+
+        <style>
+
+            table, th, td {
+                color: aliceblue;
+                border: 1px solid rgb(25, 131, 173);
+                background-color: rgba(92, 87, 87, 0.26);
+            }
+
+            body {
+                background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg');
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div>
+        <h1>List of Students in a School</h1>
+        <ol type="i">  <!--UnOrdered List-->
+            <li>Devraj Dubey</li>
+            <li>Ramanand Jaiswar</li>
+            <li>Shreyash Tiwari</li>
+            <li>Aman Tiwari</li>
+        </ol>
+        <hr>
+        </div>
+        <h2>
+            Detail of Enrolled Students
+        </h2>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Dob</th>
+                        <th>Location</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Devraj Dubey</td>
+                        <td>21</td>
+                        <td>dev@gmail.com</td>
+                        <td>Aligang</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ramanand Jaiswar</td>
+                        <td>22</td>
+                        <td>rjaiswar@gmail.com</td>
+                        <td>Aliganj</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Aman Tiwar</td>
+                        <td>18</td>
+                        <td>cyberattacker@gmail.com</td>
+                        <td>Sultanpur</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Shreyash Tiwari</td>
+                        <td>22</td>
+                        <td>stjaipuria@gmail.com</td>
+                        <td>Madiyao</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div>
+            <h2>
+                Fill Below Form for Admission in School
+            </h2>
+            <form action="added.html" method="GET" >
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="full-name" placeholder="your name here" required/>
+                    <label for="age" >Age</label>
+                    <input id="age" name="a_age" type="date" required/>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <label for="loc">Location</label>
+                    <input id="loc" loc="l_loc" placeholder="location" required/>
+                    <label for="email">Email</label>
+                    <input id="email" name="e_email" value="@gmail.com" type="email" placeholder="enter valid email" required/>
+                </div>
+                <div>
+                    <input id="check" name="c_check" type="checkbox" required/>
+                    <label for="check">Terms and condition</label>
+                </div>
+                <div>
+                        
+                    <button id="submit" type="submit">Submit</button>
+
+                </div>
+                </div>
+            </form>
+        </div>
+        <hr>
+    </body>
+</html>
