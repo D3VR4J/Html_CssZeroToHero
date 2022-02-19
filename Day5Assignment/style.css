@@ -15,7 +15,6 @@ body{
 }
 .content {
     color: white;
-    font: #993333;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -23,18 +22,13 @@ body{
     text-align: center;
     padding: 10%;
 }
+
 .content_1 {
-    position: relative;
+    padding: 90px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
     width: 90%;
     height:26%;
-    font-style: oblique;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    justify-content: space-evenly;
 }
 
 .container_2 {
@@ -44,12 +38,6 @@ body{
     margin: 5%;
 }
 
-button{
-    text-align: center;
-    font-size: 200%;
-    border-radius: 70px;
-    width: auto;
-}
 .whitespace {
     text-align: center;
     font-size: 300%;
@@ -63,8 +51,19 @@ button{
 span {
     background-color: aliceblue;
     font-size: 200%;
+    border-radius: 20%;
     display: inline;
     margin: 8%;
   justify-content: center;
   align-items: center;
+}
+.container:hover, .container_1:hover, .container_2:hover {
+    background-color: black;
+}
+.whitespace:hover {
+    background-color: black;
+    color: aliceblue;
+}
+span:hover {
+    background-color: #993333;
 }
