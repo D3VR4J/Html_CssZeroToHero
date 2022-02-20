@@ -1,0 +1,142 @@
+@import 'utils.css';
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+:root {
+    --dg: #25262a;
+    --lg: #2c2f31;
+    --bg: rgb(9, 211, 127);
+}
+body {
+    background-color: var(--lg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+header {
+    background-color: #25262a;
+    padding: 20px;
+    box-shadow: #2c2f31;
+    clip-path: polygon(3% 0, 97% 0, 100% 87%, 0% 100%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .fix .menu{
+    width: 200px;
+    display: flex;
+    background-color: yellowgreen;
+    padding-right: 80%;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid yellowgreen;
+    transition: 0.50s ease-in-out;
+}
+a:hover{
+    background-color: var(--dg);
+    border-radius: 5%;
+    border: solid yellowgreen;
+}
+.right{
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+}
+.container{
+    padding: 10px 60px;
+    margin: auto;
+}
+.button {
+    border: solid yellowgreen;
+    background-color: #25262a;
+    border-width: 1px;
+    border-radius: 5%;
+    height: 30px;
+    width: 120px;
+    justify-content: space-evenly;
+    color: white;
+    transition: 0.50s ease-in-out;
+}
+.button img {
+    height: 23px;
+    width: 23px;
+    justify-content: space-evenly;
+}
+.button:hover{
+    background-color: yellowgreen;
+}
+.myself {
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+span {
+    color: yellowgreen;
+}
+.button1 {
+    border: solid yellowgreen;
+    background-color: yellowgreen;
+    border-width: 1px;
+    border-radius: 5%;
+    height: 30px;
+    width: 80px;
+    justify-content: space-evenly;
+    color: white;
+    transition: 0.50s ease-in-out;
+    }
+.button1:hover {
+        background-color: var(--dg);
+        }
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem;
+    text-align: end;
+}
+h6 {
+    color: red;
+}
+.hero h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    font-weight:350;
+    margin-bottom: 20px;
+}
+.hero {
+    padding:140px 0px;
+}
+.left .fix {
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .left img {
+    border: solid yellowgreen;
+    border-width: 1px;
+}
