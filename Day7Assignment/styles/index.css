@@ -1,0 +1,350 @@
+@import 'utils.css';
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+:root {
+    --dg: #25262a;
+    --lg: #2c2f31;
+    --bg: rgb(9, 211, 127);
+}
+body {
+    background-color: var(--lg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+header {
+    background-color: #25262a;
+    padding: 20px;
+    box-shadow: #2c2f31;
+    clip-path: polygon(3% 0, 97% 0, 100% 87%, 0% 100%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.left .fix {
+    width: 350px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left .fix .menu{
+    width: 2px;
+    height: fit-content;
+    display: flex;
+    background-color: yellowgreen;
+    padding-right: 80%;
+}
+
+ #a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid yellowgreen;
+    transition: 0.50s ease-in-out;
+}
+#a:hover{
+    background-color: var(--dg);
+    border-radius: 5%;
+    border: solid yellowgreen;
+}
+.right{
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+}
+.container{
+    padding: 10px 60px;
+    margin: auto;
+}
+.button {
+    border: solid yellowgreen;
+    background-color: #25262a;
+    border-width: 1px;
+    border-radius: 5%;
+    height: 30px;
+    width: 120px;
+    justify-content: space-evenly;
+    color: white;
+    transition: 0.50s ease-in-out;
+}
+.button img {
+    height: 23px;
+    width: 23px;
+    justify-content: space-evenly;
+}
+.button:hover{
+    background-color: yellowgreen;
+}
+.myself {
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+span {
+    color: yellowgreen;
+}
+.button1 {
+    border: solid yellowgreen;
+    background-color: yellowgreen;
+    border-width: 1px;
+    border-radius: 5%;
+    height: 30px;
+    width: 80px;
+    justify-content: space-evenly;
+    color: white;
+    transition: 0.50s ease-in-out;
+    }
+.button1:hover {
+        background-color: var(--dg);
+        }
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem;
+    text-align: end;
+}
+h6 {
+    color: red;
+}
+.hero h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    font-weight:350;
+    margin-bottom: 20px;
+}
+.hero {
+    padding:140px 0px;
+}
+.hero .left img {
+    border: solid yellowgreen;
+    border-width: 1px;
+}
+#skills .card-container .card{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 98%, 0% 50%);
+    
+}
+#skills {
+    margin: 3%;
+}
+#skills .card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+#skills .card-container .card:hover{
+    background-color: white;
+    transition: 0.20s ease-in-out;
+}
+
+#skills .card-container .card:hover h1{
+    color: yellowgreen;
+    transition: 0.20s ease-in-out;
+}
+
+#skills .card-container .card img {
+    height: fit-content;
+    width: 80px;
+    height: fit-content;
+    background-color: yellowgreen;
+}
+
+#skills .card-container .card h1{
+    text-align: center;
+     color: white;
+     width: fit-content;
+     height:fit-content;
+     border: solid;
+     text-align: center;
+     border-width: 2px;
+}
+#skills div h1 span{
+    font-size: 80px;
+}
+#skills div #h1{
+    text-align: center;
+    margin: 7%;
+    padding-bottom: 6%;
+}
+#works div h1 span{
+    font-size: 80px;
+}
+#works div #h1{
+    text-align: center;
+    margin: 7%;
+    padding-bottom: 6%;
+}
+#works {
+    margin: 3%;
+    background-color: #25262a;
+    box-shadow: #2c2f31;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0% 95%);
+    padding: 10px 60px;
+}
+
+#works .github {
+    display: grid;
+    margin: 3%;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+#works .github #github-card{
+    border: solid yellowgreen;
+    width: fit-content;
+    height: fit-content;
+    border-width: 1px;
+    border-bottom: green;
+}
+.logo_ig .logo {
+    border: solid yellowgreen;
+    border-radius: 100%;
+    border-width: 0.1px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    text-decoration: none;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+}
+.logo_ig .logo:hover {
+    -webkit-transform: rotate(45deg);
+}
+#courses div #h1{
+    text-align: center;
+    margin: 7%;
+    padding-bottom: 6%;
+}
+#courses div h1 span{
+    font-size: 80px;
+}
+
+#courses{
+    margin: 3;
+    padding: 10px 60px;
+}
+#courses div #udemy {
+    display: flex;
+    justify-content: space-evenly;
+}
+#courses div #udemy #udemy-cards {
+    color: white;
+    width: 242px;
+    background-color: var(--dg);
+    border: solid yellowgreen;
+    border-width: 1px;
+    text-align: center;
+}
+#courses div #udemy #udemy-cards:hover {
+    background-color: yellowgreen;
+    transition: 0.40s ease-in-out;
+}
+#courses div #udemy #udemy-cards h1{
+    font-size: 20px;
+    font-weight: 260;
+    margin: 6%
+}
+#courses div #udemy #udemy-cards p{
+    font-size: 13px;
+    margin: 4%;
+    font-weight: 260;
+    padding-bottom: 5%;
+    color: rgb(126, 125, 125);
+}
+#courses div #udemy #udemy-cards #alink{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+#contacts div #h1{
+    text-align: center;
+    margin: 7%;
+    padding-bottom: 6%;
+}
+#contacts div h1 span{
+    font-size: 80px;
+}
+
+#contacts{
+    margin: 3%;
+    background-color: #25262a;
+    box-shadow: #2c2f31;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0% 95%);
+    padding: 10px 60px;
+}
+#contacts div #team {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+
+#contacts div #team #team-card{
+    justify-content: space-between;
+    text-align: center;
+    background-color: #25262a;
+    border-radius: 20%;
+    border: solid yellowgreen;
+    box-shadow: 14px 21px 0px 14px var(--lg);
+-webkit-box-shadow: 14px 21px 0px 14px var(--lg);
+-moz-box-shadow: 14px 21px 0px 14px var(--lg);
+
+}
+#contacts div #team #team-card:hover{
+    box-shadow: 14px 21px 0px 14px rgba(151,198,57,0.35);
+-webkit-box-shadow: 14px 21px 0px 14px rgba(151,198,57,0.35);
+-moz-box-shadow: 14px 21px 0px 14px rgba(151,198,57,0.35);
+    transition: 0.50s ease-in-out;
+}
+#contacts div #team #team-card img{
+    margin: 3%;
+    padding: 30px 20px;
+    width: 210px;
+    height:280px;
+    border-radius: 30%;
+}
+
+#team-card h6{
+    margin: auto;
+    color: white;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+#team-card h2{
+    margin: 3%;
+    color:white;
+}
+q{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
