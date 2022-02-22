@@ -1,8 +1,12 @@
 /*1selctor*/
-body{
+* {   /*Universal Selector*/
+    margin: 0%;
+    padding: 0%;
+}
+body{   /*Element Selector*/
     background-color: whitesmoke;
 }
-.container {
+.container {   /*Class Selector*/
     height: 50%;
     background-color: #993333;
     margin: 5%;
@@ -38,7 +42,7 @@ body{
     margin: 5%;
 }
 
-.whitespace {
+#whitespace {   /*Id Selector*/
     text-align: center;
     font-size: 300%;
     border: solid#993333;
@@ -48,7 +52,7 @@ body{
     margin: 10%;
     padding: 5%;
 }
-span {
+.content_1>div>span {   /*child combinator selectors*/
     background-color: aliceblue;
     font-size: 200%;
     border-radius: 20%;
@@ -57,10 +61,10 @@ span {
   justify-content: center;
   align-items: center;
 }
-.container:hover, .container_1:hover, .container_2:hover {
+.container:hover, .container_1:hover, .container_2:hover {   /*grouping selector*/
     background-color: black;
 }
-.whitespace:hover {
+#whitespace:hover {   /*Psudo class Selector*/
     background-color: black;
     color: aliceblue;
 }
